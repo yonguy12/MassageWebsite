@@ -1,0 +1,50 @@
+.paddingtop{
+    padding-top: 2%;
+}
+.tophead{
+    width: 400px;
+    height: 400px;
+}
+.orangeText{
+    color: #25960f;
+}
+.green1{
+    background-color: #52bd24;
+}
+.green2{
+    background-color: #6dca46
+}
+.green3{
+    background-color: #8ad66a
+}
+.green4{
+    background-color: #aae392
+}
+.textgreen{
+    color: #304d22
+}
+.grey1{
+    background-color: #dfe2d2
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 20px
+}
+h1, h2, h3, h4, h5, h6, h7{
+    font-family: 'Lora';
+}
+.bgimg{
+    background-image: url("../../assets/Pics/lotus40percent.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:  cover; /* Resize the background image to cover the entire container */
+    height:50rem;
+   
+    background-position-y: -50px;
+}
+.shadow{
+    box-shadow: -1px -3px 23px 5px rgb(189, 189, 189) inset;
+}
+.paddingbot{
+    padding-bottom: 4%;
+}

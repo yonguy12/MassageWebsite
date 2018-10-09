@@ -1,0 +1,43 @@
+.greenBackground{
+    
+
+    background-color: #b4b4b4;
+/* background-image: linear-gradient(180deg, #e2e1e1fa 0%, #a9f389bd 23%, #a9f389bd 77%, #f8f8f8fa 100%); */
+
+}
+.green1{
+    background-color: #52bd24;
+}
+.green2{
+    background-color: #6dca46
+}
+.green3{
+    background-color: #8ad66a
+}
+.green4{
+    background-color: #aae392
+}
+.textgreen{
+    background-color: #304d22
+}
+.grey1{
+    background-color: #eeeeee
+}
+#roboto{
+    font-family:'Roboto Condensed';
+    font-size: 22px;
+    
+}
+
+
+
+.link{
+    color: black;
+}
+button{
+    border-radius: 20px;
+}
+li button{
+    font-size: 21px
+
+}

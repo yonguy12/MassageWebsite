@@ -1,0 +1,41 @@
+.paddingtop{
+    padding-top: 2%
+}
+.orangeText{
+    color: #25960f;
+
+}
+.green1{
+    background-color: #52bd24;
+}
+.green2{
+    background-color: #6dca46
+}
+.green3{
+    background-color: #8ad66a
+}
+.green4{
+    background-color: #aae392
+}
+.textgreen{
+    color: #304d22
+}
+.gradeintgreen{
+    background: linear-gradient(160deg, #aae392,#ecf5e8 131%)
+}
+.grey1{
+    background-color: #eeeeee
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 20px
+}
+h1, h2, h3, h4, h5, h6, h7{
+    font-family: 'Lora';
+}
+.shadow{
+    box-shadow: -1px -3px 23px 5px rgb(189, 189, 189) inset;
+}
+.paddingbot{
+    padding-bottom: 4%;
+}

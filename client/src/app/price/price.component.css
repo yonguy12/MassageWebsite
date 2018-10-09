@@ -1,0 +1,40 @@
+.bgimg{
+    background-image: url("../../assets/Pics/lotus40percent.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:  cover; /* Resize the background image to cover the entire container */
+    height:50rem;
+   
+    background-position-y: -50px;
+}
+.margin{
+    margin-top: 10%;
+
+}
+.green1{
+    background-color: #52bd24;
+}
+.green2{
+    background-color: #6dca46
+}
+.green3{
+    background-color: #8ad66a
+}
+.green3-text{
+    color: #8ad66a
+}
+.green4{
+    background-color: #aae392
+}
+.textgreen{
+    color: #304d22
+}
+.grey1{
+    background-color: #dfe2d2
+}
+.paddingtop{
+    padding-top: 2%
+}
+h1, h2, h3, h4, h5, h6, h7{
+    font-family: 'Lora';
+}

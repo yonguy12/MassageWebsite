@@ -1,0 +1,48 @@
+.orangeText{
+    color: #25960f;
+
+}
+.green1{
+    background-color: #52bd24;
+}
+.green2{
+    background-color: #6dca46
+}
+.green3{
+    background-color: #8ad66a
+}
+.green4{
+    background-color: #aae392
+}
+.brighttextgreen{
+    color: #52bd24;
+}
+.textgreen{
+    color: #304d22
+}
+.grey1{
+    background-color: #eeeeee
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 20px
+}
+h1, h2, h3, h4, h5, h6, h7{
+    font-family: 'Lora';
+}
+.bg-img{
+    background: #ffffff;
+    background-image: url(../../assets/Pics/pure-bliss-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+@media only screen and (max-width: 768px) {
+    .bg-img{
+        background: #aae392;
+        background-image: url(../../assets/Pics/pure-bliss-banner-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+}

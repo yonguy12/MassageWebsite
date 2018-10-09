@@ -1,0 +1,70 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lotus Masáž</title>
+</head>
+
+<body class="" style="height: auto; max-width:auto; " >
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <a class="navbar-brand " style="margin-right: auto" (click)="home()"><img src="../assets/Pics/croppedlogo.png" class="imgClass" alt=""  width="200px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-5 mr-auto">
+      <li class="nav-item active mr-5">
+        <button class="nav-link btn btn-link"  (click)="home()">Home </button>
+      </li>
+      <li class="nav-item mr-5">
+        <button class="nav-link btn btn-link " (click)="massages()">Services </button>
+      </li>
+      <li class="nav-item mr-5">
+        <button class="nav-link btn btn-link " (click)="prices()">Prices </button>
+      </li>
+      <li class="nav-item mr-5">
+        <button class="nav-link btn btn-link " (click)="policies()">Policies</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link btn btn-link " (click)="contact()">Contact </button>
+      </li>
+    </ul>
+    <a class="mr-3 btn btn-outline-dark " href="https://visibook.com/lotusmasaz" target="_blank">SCHEDULE APPOINTMENT</a>
+  </div>
+  
+</nav>
+<div class="container-fluid justify-content-center p-0 grey1">
+
+  <router-outlet></router-outlet>
+</div>
+<br>
+
+<div class="row m-0 mb-3 p-0 bg-white pt-5" style="width: 100%">
+    <br>
+  <div class="col-lg-4 text-center  p-0">
+  <p class="mb-0">701 Bay Street, Suite 204</p>  
+  <p class="mb-0">Port Orchard, WA 98366</p>
+  <a class="link" href="www.lotusmasaz.com"><p class="mb-0">www.lotusmasaz.com</p></a>
+  <p class="mb-5">(360)-536-6572</p>
+  </div>
+  <div class="col-lg-4 text-center mb-5  p-0">
+  <a href="https://www.yelp.com/biz/lotus-masaz-port-orchard-2?osq=lotus+masaz"><button class="btn btn-outline-dark mr-2 mt-2">Review us on Yelp</button></a>
+    <button class="btn btn-outline-dark mt-2">Review us on Google</button>
+  </div>
+  <div class="col-lg-4 text-center mb-4 mr-0 p-0">
+    <a href="https://www.facebook.com/lotusmasaz/"><img src="../assets/Pics/facebook.png" alt="facebook icon" height="45px" width="45px"></a>
+    <a href="http://blog.lotusmasaz.com/"><img src="../assets/Pics/google.png" alt="google icon" height="36px" width="36px"></a>
+    <a href="https://www.yelp.com/biz/lotus-masaz-port-orchard-2?osq=lotus+masaz"><img src="../assets/Pics/yelp.png" alt="yelp icon" height="36px" width="36px"></a>
+  </div>
+</div>
+</body>
+</html>
+<!-- https://www.facebook.com/lotusmasaz/ -->
